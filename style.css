@@ -1,0 +1,73 @@
+/* google font */
+/* font name: font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* end of google font */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #000000;
+}
+.html-outline{
+    width: 900px;
+    height: 1250px;
+    margin: 40px auto;
+    background-color: #ffffff;
+}
+.course-heading{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    color: #FE6B21;
+    border-bottom: 2px dashed #FE6B21;
+}
+.head{
+    display: inline-block;
+    margin-top: 70px;
+}
+.course-flist{
+    padding-top: 40px;
+    width: 650px;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+.course-flist p:nth-child(even){
+    color: #FE6B21;
+}
+.course-slist{
+    width: 650px;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    left: 25px;
+}
+.course-slist p:nth-child(odd){
+    color: #FE6B21;
+}
+.fa-circle{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 11px;
+    left: -23px;
+}
+.signature{
+    color: #FE6B21;
+    position: absolute;
+    top: 1120px;
+    left: 650px;
+    line-height: 25px;
+    text-align: center;
+}
+.signature u{
+    font-size: 25px;
+    font-weight: 600;
+}
+.signature h1{
+    font-size: 25px;
+    font-weight: 600;
+}
